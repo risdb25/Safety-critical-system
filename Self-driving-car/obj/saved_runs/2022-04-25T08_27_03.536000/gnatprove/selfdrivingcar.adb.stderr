@@ -1,0 +1,3 @@
+selfdrivingcar.adb:20:48: medium: range check might fail [reason for check: result of addition must fit in the target type of the assignment][#1]
+selfdrivingcar.adb:22:10: high: "Text_IO.File_System" must be listed in the Global aspect of "applyAcceleratorPedal" (SPARK RM 6.1.4(14))[#0]
+selfdrivingcar.ads:59:30: medium: postcondition might fail, cannot prove myCar.currentSpeed < speedLimit[#2]

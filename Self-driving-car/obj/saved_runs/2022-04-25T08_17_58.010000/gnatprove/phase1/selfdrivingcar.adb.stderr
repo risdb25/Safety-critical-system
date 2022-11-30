@@ -1,0 +1,6 @@
+selfdrivingcar.ads:20:16: error: component "Sensor" cannot be used before end of record declaration
+selfdrivingcar.ads:21:24: error: component "DiagnosticMode" cannot be used before end of record declaration
+selfdrivingcar.ads:27:19: error: no value supplied for component "currentSpeed"
+selfdrivingcar.ads:27:19: error: no value supplied for component "batteryCharge"
+selfdrivingcar.ads:27:19: error: no value supplied for component "sensor"
+selfdrivingcar.ads:27:19: error: no value supplied for component "diagnosticMode"

@@ -1,0 +1,2 @@
+selfdrivingcar.adb:20:48: medium: range check might fail [reason for check: result of addition must fit in the target type of the assignment] [possible fix: subprogram at selfdrivingcar.ads:55 should mention myCar in a precondition][#0]
+selfdrivingcar.ads:59:16: medium: postcondition might fail, cannot prove (Invariant)[#1]

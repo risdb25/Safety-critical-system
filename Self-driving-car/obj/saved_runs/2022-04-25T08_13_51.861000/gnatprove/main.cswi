@@ -1,0 +1,7 @@
+20220425071334
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=C:\devada\Coursework\obj\gnatprove\ccc0f4b6.tmp

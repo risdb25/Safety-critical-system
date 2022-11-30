@@ -1,0 +1,6 @@
+selfdrivingcar.ads:27:19: error: no value supplied for component "objectScanner"
+selfdrivingcar.ads:27:19: error: no value supplied for component "diagMode"
+selfdrivingcar.ads:27:19: error: no value supplied for component "currentSpeed"
+selfdrivingcar.ads:27:19: error: no value supplied for component "batteryCharge"
+selfdrivingcar.ads:34:12: error: no selector "diagnosticMode" for type "Car" defined at line 15
+selfdrivingcar.ads:56:79: error: no selector "sensor" for type "Car" defined at line 15

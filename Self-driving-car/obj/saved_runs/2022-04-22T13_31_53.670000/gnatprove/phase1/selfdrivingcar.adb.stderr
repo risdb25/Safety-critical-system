@@ -1,0 +1,3 @@
+selfdrivingcar.adb:6:12: error: no selector "Ignition" for type "Car" defined at selfdrivingcar.ads:14
+selfdrivingcar.ads:22:19: error: no value supplied for component "wheel"
+selfdrivingcar.ads:47:29: error: global item must denote object, state or current instance of concurrent type

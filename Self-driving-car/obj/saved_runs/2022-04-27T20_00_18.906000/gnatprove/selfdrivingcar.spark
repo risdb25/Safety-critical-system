@@ -1,0 +1,695 @@
+{
+  "spark": [
+    {
+      "name": "SelfDrivingCar",
+      "sloc": [
+        {
+          "file": "selfdrivingcar.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "SelfDrivingCar.Invariant",
+      "sloc": [
+        {
+          "file": "selfdrivingcar.ads",
+          "line": 34
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "SelfDrivingCar.turnCarOn",
+      "sloc": [
+        {
+          "file": "selfdrivingcar.ads",
+          "line": 43
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "SelfDrivingCar.applyAcceleratorPedal",
+      "sloc": [
+        {
+          "file": "selfdrivingcar.ads",
+          "line": 55
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "SelfDrivingCar.changeGear",
+      "sloc": [
+        {
+          "file": "selfdrivingcar.ads",
+          "line": 66
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "selfdrivingcar.ads",
+      "line": 68,
+      "col": 8,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "SelfDrivingCar.changeGear",
+        "sloc": [
+          {
+            "file": "selfdrivingcar.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "selfdrivingcar.ads",
+      "line": 57,
+      "col": 8,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "SelfDrivingCar.applyAcceleratorPedal",
+        "sloc": [
+          {
+            "file": "selfdrivingcar.ads",
+            "line": 55
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "selfdrivingcar.ads",
+      "line": 45,
+      "col": 8,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "SelfDrivingCar.turnCarOn",
+        "sloc": [
+          {
+            "file": "selfdrivingcar.ads",
+            "line": 43
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "session_map": {
+    " 1": "C:\\devada\\Coursework\\obj\\gnatprove\\selfdrivingcar__changegear",
+    " 2": "C:\\devada\\Coursework\\obj\\gnatprove\\selfdrivingcar__turncaron",
+    " 3": "C:\\devada\\Coursework\\obj\\gnatprove\\selfdrivingcar__applyacceleratorpedal"
+  },
+  "proof": [
+    {
+      "file": "selfdrivingcar.ads",
+      "line": 70,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "SelfDrivingCar.changeGear",
+        "sloc": [
+          {
+            "file": "selfdrivingcar.ads",
+            "line": 66
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "selfdrivingcar.ads",
+      "check_line": 70,
+      "check_col": 16,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "selfdrivingcar.ads",
+      "line": 47,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "SelfDrivingCar.turnCarOn",
+        "sloc": [
+          {
+            "file": "selfdrivingcar.ads",
+            "line": 43
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "selfdrivingcar.ads",
+      "check_line": 47,
+      "check_col": 16,
+      "session_dir": 2,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "selfdrivingcar.adb",
+      "line": 20,
+      "col": 48,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "SelfDrivingCar.applyAcceleratorPedal",
+        "sloc": [
+          {
+            "file": "selfdrivingcar.ads",
+            "line": 55
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "selfdrivingcar.adb",
+      "check_line": 20,
+      "check_col": 48,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "selfdrivingcar.ads",
+      "line": 59,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "SelfDrivingCar.applyAcceleratorPedal",
+        "sloc": [
+          {
+            "file": "selfdrivingcar.ads",
+            "line": 55
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "selfdrivingcar.ads",
+      "check_line": 59,
+      "check_col": 16,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "SelfDrivingCar.Invariant",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 34
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "SelfDrivingCar.Invariant",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 34
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "SelfDrivingCar",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "SelfDrivingCar.applyAcceleratorPedal",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 55
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "SelfDrivingCar.applyAcceleratorPedal",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 55
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "SelfDrivingCar.applyAcceleratorPedal",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 55
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "SelfDrivingCar.changeGear",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "SelfDrivingCar.changeGear",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "SelfDrivingCar.changeGear",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 66
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "SelfDrivingCar.turnCarOn",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "SelfDrivingCar.turnCarOn",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "SelfDrivingCar.Invariant",
+            "sloc": [
+              {
+                "file": "selfdrivingcar.ads",
+                "line": 34
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "SelfDrivingCar.turnCarOn",
+          "sloc": [
+            {
+              "file": "selfdrivingcar.ads",
+              "line": 43
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "codepeer results": 7.59300019126385E-04,
+    "init_why_sections": 3.20430006831884E-03,
+    "gnatwhy3.run_vcs": 0.00000000000000E+00,
+    "globals (advanced)": 3.95920015871525E-02,
+    "flow analysis": 1.91149003803730E-02,
+    "marking": 3.30200011376292E-04,
+    "translation of standard": 1.05362003669143E-02,
+    "properties (advanced)": 4.78200003271922E-04,
+    "gnatwhy3.register_vcs": 0.00000000000000E+00,
+    "globals (basic)": 1.04560732841492E+00,
+    "gnatwhy3.schedule_vcs": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 1.56250000000000E-02,
+    "gnatwhy3.init": 1.40625000000000E+00
+  }
+}

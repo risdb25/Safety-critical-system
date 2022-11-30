@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\devada\Coursework\coursework.gpr
+20220421122846 3051cc0b7bd354294a1769217c55fadc
+[BOUND OBJECT FILES]
+C:\devada\Coursework\obj\selfdrivingcar.o
+C:\devada\Coursework\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\devada\Coursework\obj\
+-LC:\devada\Coursework\obj\
+-LC:/gnat/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,1 @@
+selfdrivingcar.adb:22:10: high: "Text_IO.File_System" must be listed in the Global aspect of "applyAcceleratorPedal" (SPARK RM 6.1.4(14))[#0]

@@ -1,0 +1,66 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -gnata
+A -ganto
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U selfdrivingcar%b	selfdrivingcar.adb	f4dc548c NE OO PK
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U selfdrivingcar%s	selfdrivingcar.ads	c3bafb45 EE NE OO PK
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-assert.ads		20210520051128 a718b65c ada.assertions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D selfdrivingcar.ads	20220427190120 c3bafb45 selfdrivingcar%s
+D selfdrivingcar.adb	20220502101002 3766afc9 selfdrivingcar%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-assert.ads		20210520051132 6a49a4e4 system.assertions%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+G a e
+G c Z s s [carIP selfdrivingcar 13 9 none]
+G c Z s s [invariant selfdrivingcar 32 13 none]
+G c Z s b [turncaron selfdrivingcar 41 14 none]
+G c Z s b [applyacceleratorpedal selfdrivingcar 53 14 none]
+G c Z s b [changegear selfdrivingcar 64 14 none]
+X 4 selfdrivingcar.ads
+1K9*SelfDrivingCar 70l5 70e19 5|1b14 26l5 26t19
+5E9*Gearbox 5e29 14r21 64r33 5|9r33
+5n21*P{5E9} 25r35 44r49
+5n24*D{5E9}
+5n27*R{5E9}
+6E9*Sensor 6e37 15r23
+6n20*Detection{6E9}
+6n31*Clear{6E9} 25r55 56r97
+7E9*Ignition 7e30 16r16
+7n22*On{7E9} 5|6r23
+7n26*Off{7E9} 26r30
+8E9*Diagnostics 8e45 17r24
+8n25*Engaged{8E9} 34r31
+8n34*Disengaged{8E9} 26r53
+9I9*Speed<short_short_integer> 18r22 53r52 5|15r53
+10I9*BatteryPercentage<short_short_integer> 19r23
+13R9*Car 20e14 25r12
+14e7*gearEngaged{5E9} 25m20 44r35 5|12m13
+15e7*objectScanner{6E9} 25m38 56r81
+16e7*status{7E9} 26m20 5|6m13
+17e7*diagnosticMode{8E9} 26m35 34r13
+18i7*currentSpeed{9I9} 27m19 56r37 57r37 67r35 5|18m13 18r35 22m16 22r38
+19i7*batteryCharge{10I9} 27m38 44r61 45r37 5|19r17
+25r4*myCar{13R9} 34r7 43r29 44r29 44r55 45r31 55r29 56r31 56r75 57r31 66r29
+. 67r29 5|6m7 12m7 18m7 18r29 19r11 22m10 22r32
+32V13*Invariant{boolean} 44s15 45s16 56s15 57s16 67s15 68s16
+41U14*turnCarOn 5|3b14 7l8 7t17
+53U14*applyAcceleratorPedal 53>36 5|15b14 24l8 24t29
+53i36 speedLimit{9I9} 56r58 57r53 5|15b37
+64U14*changeGear 64>26 5|9b14 13l8 13t18
+64e26 g{5E9} 5|9b26 12r28
+
